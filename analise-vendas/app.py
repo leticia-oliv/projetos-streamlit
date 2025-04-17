@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 st.title("📊 Análise de Vendas")
 
 # carregar os dados
-dados = pd.read_csv("vendas.csv")
+dados = pd.read_csv("./vendas.csv")
 
 # mostrar os primeiros dados
 st.subheader("🔍 Primeiras linhas da base de dados")
